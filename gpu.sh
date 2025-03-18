@@ -19,7 +19,7 @@ function get_percentage_color() {
 }
 
 while true; do
-    clear
+    printf "\033c"
     
     current_time=$(date "+%Y-%m-%d %H:%M:%S")
     hostname=$(uname -n)
