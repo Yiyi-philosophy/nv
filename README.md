@@ -1,7 +1,8 @@
 # Advantage:
 1. show gpu info on small shell
 2. only rely on `nvidia-smi`
-3. support multi-gpu
+3. support multi-gpus
+4. show different colors for different gpu utilization
 
 ---
 
