@@ -1,4 +1,11 @@
+# Advantage:
+1. show gpu info on small shell
+2. only rely on `nvidia-smi`
+3. support multi-gpu
 
+---
+
+# Usage:
 Online use:
 ```bash
 curl -s https://raw.githubusercontent.com/Yiyi-philosophy/nv/main/gpu.sh | bash
@@ -35,3 +42,7 @@ Host: <6nvc03oe9i35j-0> - 2025-03-18 18:56:04 (Press Ctrl+C to exit)
 | V100-32GB     |          0% |    0.0/32.0   GiB ( 0.0%) |
 +---------------+-------------+---------------------------+
 ```
+
+---
+
+PS: Some system may not install `awk`, you can install it by `sudo apt-get install gawk` or `sudo yum install gawk`
